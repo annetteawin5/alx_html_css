@@ -16,5 +16,10 @@ aside{
     flex: 1;
     overflow-y: auto; 
 }
+.logo{
+    font: size 28px;
+    margin-right: auto;
+    color: blue;
+}
 
 
