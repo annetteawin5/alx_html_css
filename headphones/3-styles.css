@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Source Sans Pro-Regular;
+    src: url(assets/SourceSansPro-Regular.otf) 
+    
+ }
+ * {
+    font-family:Source Sans Pro-Regular;
+ }
+ @font-face {
+    font-family:Source Sans Pro-Bold;
+    src: url(assets/SourceSansPro-Bold.otf);
+}
+*{
+    font-family:Source Sans Pro-Bold; 
+}
+@font-face {
+    font-family:pro;
+    src: url(assets/SourceSansPro-Semibold.otf);
+}
+*{
+    font-family:pro; 
+}
+
+
+.outer-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    
+    
+    
+}
+
+.inner-container{
+ width: 50%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
+
+}
+.contact-section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    font-family: pro;
+     
+
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    height: 100%;
+    
+    
+     
+}
+.form p{
+    padding: 5px;
+    border-bottom: 2px solid rgb(231, 226, 226) ;
+     font-family:Source Sans Pro-Regular ;
+    
+}
+
+button{
+   text-align: center;
+  padding: 12px 24px;
+   border-radius: 18px;
+   border-style: none;
+   background-color:  #FF6565;
+   color: white;
+   margin-top: 0px;
+   margin-bottom: 30px;
+   font-family: Source Sans Pro-Bold;
+}
