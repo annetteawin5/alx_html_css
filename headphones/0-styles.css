@@ -98,8 +98,8 @@ button:active{
     
     margin: 0px;
     color: white;
-    font-size: 25px;
-    font-weight: 400px;
+    font-size: 18px;
+    /* font-weight: 400px; */
      font-family:Source Sans Pro-Bold; 
     
 }
@@ -110,4 +110,3 @@ button:active{
     
     
 }
-
